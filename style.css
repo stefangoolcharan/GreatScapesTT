@@ -17,7 +17,7 @@ html {
     padding-top: 5vh;
 }
 
-.white-header{ 
+.white-header {
     color: rgb(238, 238, 238);
 }
 
@@ -105,7 +105,7 @@ header h2 {
 .quote button {
     padding: 10px 25px;
     color: white;
-    background-color:#25753a;
+    background-color: #25753a;
     border: none;
     border-radius: 1vh;
     transition: all 0.2s ease 0s;
@@ -152,24 +152,34 @@ header h2 {
 }
 
 #about h1 {
+    font-weight: 500;
+    color: rgb(238, 238, 238);
     padding-bottom: 5vh;
+    padding-left: 5vw;
 }
 
+.hero { 
+    position: relative;
+    top: 15vh;
+}
 .para-1 {
     font-size: 2vh;
-    padding-left: 15vw;
-    color: rgb(238, 238, 238);
+    padding-left: 5vw;
+    color: rgb(238, 238, 238); 
 }
 
-.para-2 {
-    font-size: 2vh;
-    padding-left: 60vw;
-    color: rgb(238, 238, 238);
+#about img { 
+    border-style: none;
+    border-radius: 2vh;
+    height: 50%;
+    position: relative;
+    left: 62vw;
+    bottom: 19vh;
 }
 
 /*Services*/
 
-#services { 
+#services {
     height: 80vh;
 }
 
@@ -210,9 +220,9 @@ header h2 {
     background-color: rgb(180, 226, 180);
 }
 
-.service:hover { 
+.service:hover {
     cursor: pointer;
-    transform:scale(102%);
+    transform: scale(102%);
     background-color: #25753ac4;
     color: #fdfafa;
 }
@@ -227,7 +237,7 @@ header h2 {
 
 /*Packages*/
 
-#packages { 
+#packages {
     background-image: linear-gradient(to left bottom, #25753a, #007e6b, #0083a6, #0081d6, #2872e5);
     height: 100vh;
 }
@@ -245,7 +255,7 @@ header h2 {
     display: inline-block;
 }
 
-#packages li li{ 
+#packages li li {
     display: grid;
     align-items: center;
 }
@@ -304,7 +314,7 @@ header h2 {
     font-size: 80%;
 }
 
-.special { 
+.special {
     border-color: #2f9c4c;
     border-width: 0.5vh;
     position: relative;
@@ -313,32 +323,32 @@ header h2 {
     margin-left: 5%;
 }
 
-.basic { 
+.basic {
     position: relative;
     bottom: 20vh;
     height: 43vh;
     margin-left: 16%;
 }
 
-.buy:hover{ 
-    background-color:#25753a;
+.buy:hover {
+    background-color: #25753a;
     color: white;
     cursor: pointer;
 }
 
-.special-buy:hover{ 
-    transform:scale(105%);
+.special-buy:hover {
+    transform: scale(105%);
     background-color: rgb(240, 240, 240);
     color: #25753a;
 }
 
-.special-buy{ 
+.special-buy {
     color: rgb(238, 238, 238);
     background-color: #25753a;
     border-color: #25753a;
 }
 
-.pro { 
+.pro {
     position: relative;
     bottom: 1vh;
     height: 63vh;
@@ -424,7 +434,7 @@ header h2 {
     transition: all 0.3s ease 0s;
 }
 
-.submit:hover { 
+.submit:hover {
     transform: scale(102%);
     cursor: pointer;
 }
