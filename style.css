@@ -11,6 +11,17 @@ html {
     scroll-behavior: smooth;
 }
 
+.heading {
+    text-align: center;
+    font-weight: 500;
+    padding-top: 5vh;
+}
+
+.white-header{ 
+    color: rgb(238, 238, 238);
+}
+
+
 /*Home Page Section [Start]*/
 
 #section-1 {
@@ -39,11 +50,8 @@ header h2 {
     font-weight: 500;
 }
 
-#nav-items {
-    list-style: none;
-}
-
 #nav-items li {
+    list-style: none;
     display: inline-block;
     padding: 0px 20px;
 }
@@ -56,7 +64,7 @@ header h2 {
 }
 
 #nav-items li a:hover {
-    color: #3bad78;
+    color: #25753a;
 }
 
 #nav-items li img {
@@ -65,6 +73,7 @@ header h2 {
     margin: 0;
     height: 2.5vh;
     top: 0.4vh;
+    cursor: pointer;
 }
 
 /*Navigation Bar [End]*/
@@ -80,7 +89,7 @@ header h2 {
 
 .buttons li a button {
     font-size: 2vh;
-    font-weight: 600;
+    font-weight: 500;
     position: relative;
     top: 2vh;
 }
@@ -96,33 +105,31 @@ header h2 {
 .quote button {
     padding: 10px 25px;
     color: white;
-    background-color: rgba(3, 3, 3, 0.808);
+    background-color:#25753a;
     border: none;
     border-radius: 1vh;
-    cursor: pointer;
-    transition: all 0.3s ease 0s;
+    transition: all 0.2s ease 0s;
 }
 
-.quote:hover {
-    transition: all 0.3s ease 0s;
-    padding: 9px 25px;
-    border: none;
+.quote :hover {
+    transform: scale(105%);
+    cursor: pointer;
 }
 
 .learn-more button {
     padding: 9px 25px;
-    background-color: rgba(187, 52, 86, 0.808);
+    background-color: #4cb0eb;
     color: rgb(255, 255, 255);
     border-style: solid;
-    border-color: rgb(187, 52, 86);
+    border-color: #4cb0eb;
     border-width: 2px;
     border-radius: 1vh;
     cursor: pointer;
-    transition: all 0.3s ease 0s;
+    transition: all 0.2s ease 0s;
 }
 
 .learn-more :hover {
-    background-color: rgba(187, 52, 86, 0.568);
+    transform: scale(105%);
     color: white;
 }
 
@@ -131,7 +138,7 @@ header h2 {
     font-size: 8.5vh;
     text-align: center;
     font-weight: 500;
-    padding-top: 30vh;
+    padding-top: 28vh;
 }
 
 /*Home Page Section [End]*/
@@ -140,26 +147,24 @@ header h2 {
 
 #about {
     background-image: linear-gradient(to right bottom, #25753a, #007e6b, #0083a6, #0081d6, #2872e5);
-    height: 100vh;
+    height: 80vh;
     width: auto;
 }
 
 #about h1 {
-    color: rgb(238, 238, 238);
-    text-align: center;
-    font-weight: 500;
-    padding-top: 5vh;
     padding-bottom: 5vh;
 }
 
 .para-1 {
     font-size: 2vh;
     padding-left: 15vw;
+    color: rgb(238, 238, 238);
 }
 
 .para-2 {
     font-size: 2vh;
     padding-left: 60vw;
+    color: rgb(238, 238, 238);
 }
 
 /*Services*/
@@ -169,10 +174,7 @@ header h2 {
 }
 
 #services h1 {
-    text-align: center;
     margin-bottom: 10vh;
-    font-weight: 500;
-    padding-top: 5vh;
 }
 
 .section ul li {
@@ -190,6 +192,7 @@ header h2 {
     width: 27vw;
     height: 24vh;
     background-color: #dfdfdf6e;
+    transition: all 0.3s ease 0s;
 }
 
 .section ul {
@@ -207,6 +210,13 @@ header h2 {
     background-color: rgb(180, 226, 180);
 }
 
+.service:hover { 
+    cursor: pointer;
+    transform:scale(102%);
+    background-color: #25753ac4;
+    color: #fdfafa;
+}
+
 .section h4 {
     font-weight: 500;
 }
@@ -220,13 +230,6 @@ header h2 {
 #packages { 
     background-image: linear-gradient(to left bottom, #25753a, #007e6b, #0083a6, #0081d6, #2872e5);
     height: 100vh;
-}
-
-#packages h1 {
-    color: rgb(238, 238, 238);
-    text-align: center;
-    font-weight: 500;
-    padding-top: 5vh;
 }
 
 #packages h3 {
@@ -351,12 +354,8 @@ header h2 {
     width: 100vw;
 }
 
-
 #contact h1 {
-    text-align: center;
     margin-bottom: 10vh;
-    font-weight: 500;
-    padding-top: 5vh;
 }
 
 #contact ul li {
@@ -411,7 +410,7 @@ header h2 {
     background-color: #dfdfdf9a;
 }
 
-.contact-form button {
+.submit {
     text-align: center;
     color: #ffffff;
     font-weight: 300;
@@ -422,6 +421,12 @@ header h2 {
     border: none;
     background-color: #4cb0eb;
     border-radius: 5px;
+    transition: all 0.3s ease 0s;
+}
+
+.submit:hover { 
+    transform: scale(102%);
+    cursor: pointer;
 }
 
 .footer {
