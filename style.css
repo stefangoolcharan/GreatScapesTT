@@ -1,0 +1,469 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,700;0,800;0,900;1,600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,700;1,200;1,300;1,700&family=Satisfy&display=swap');
+
+* {
+    font-family: "Poppins", sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+/*Home Page Section [Start]*/
+
+#section-1 {
+    background-image: url("assets/images/Great.png");
+    background-size: 100% 100%;
+    height: 100vh;
+    width: 100vw;
+}
+
+/*Navigation Bar [Start]*/
+
+header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0.5vh 2%;
+    background-color: #121414f8;
+}
+
+header h2 {
+    font-family: 'Satisfy', cursive;
+    cursor: pointer;
+    color: #e7e7e7;
+    margin-right: 15vw;
+    font-size: 5vh;
+    font-weight: 500;
+}
+
+#nav-items {
+    list-style: none;
+}
+
+#nav-items li {
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+#nav-items li a {
+    transition: all 0.3s ease 0s;
+    text-decoration: none;
+    font-size: 15px;
+    color: #f5f5f5;
+}
+
+#nav-items li a:hover {
+    color: #3bad78;
+}
+
+#nav-items li img {
+    padding: 0;
+    position: relative;
+    margin: 0;
+    height: 2.5vh;
+    top: 0.4vh;
+}
+
+/*Navigation Bar [End]*/
+
+.buttons {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.buttons li a button {
+    font-size: 2vh;
+    font-weight: 600;
+    position: relative;
+    top: 2vh;
+}
+
+.quote {
+    padding-right: 2vw;
+}
+
+.learn-more {
+    padding-right: 41vw;
+}
+
+.quote button {
+    padding: 10px 25px;
+    color: white;
+    background-color: rgba(3, 3, 3, 0.808);
+    border: none;
+    border-radius: 1vh;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+
+.quote:hover {
+    transition: all 0.3s ease 0s;
+    padding: 9px 25px;
+    border: none;
+}
+
+.learn-more button {
+    padding: 9px 25px;
+    background-color: rgba(187, 52, 86, 0.808);
+    color: rgb(255, 255, 255);
+    border-style: solid;
+    border-color: rgb(187, 52, 86);
+    border-width: 2px;
+    border-radius: 1vh;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+
+.learn-more :hover {
+    background-color: rgba(187, 52, 86, 0.568);
+    color: white;
+}
+
+.slogan h1 {
+    color: #1c1b1f;
+    font-size: 8.5vh;
+    text-align: center;
+    font-weight: 500;
+    padding-top: 30vh;
+}
+
+/*Home Page Section [End]*/
+
+/*About Section [Start]*/
+
+#about {
+    background-image: linear-gradient(to right bottom, #25753a, #007e6b, #0083a6, #0081d6, #2872e5);
+    height: 100vh;
+    width: auto;
+}
+
+#about h1 {
+    color: rgb(238, 238, 238);
+    text-align: center;
+    font-weight: 500;
+    padding-top: 5vh;
+    padding-bottom: 5vh;
+}
+
+.para-1 {
+    font-size: 2vh;
+    padding-left: 15vw;
+}
+
+.para-2 {
+    font-size: 2vh;
+    padding-left: 60vw;
+}
+
+/*Services*/
+
+#services { 
+    height: 80vh;
+}
+
+#services h1 {
+    text-align: center;
+    margin-bottom: 10vh;
+    font-weight: 500;
+    padding-top: 5vh;
+}
+
+.section ul li {
+    margin-bottom: 2vw;
+    display: inline-block;
+}
+
+.section ul li {
+    border-style: solid;
+    border-width: 1px;
+    border-color: #e2e2e2;
+    border-radius: 2vh;
+    padding-left: 2vw;
+    margin-left: 3vw;
+    width: 27vw;
+    height: 24vh;
+    background-color: #dfdfdf6e;
+}
+
+.section ul {
+    list-style: none;
+}
+
+.section img {
+    margin-top: 2.5vh;
+    height: 35px;
+    width: auto;
+    border-style: transparent;
+    border-width: 1px;
+    border-radius: 10%;
+    padding: 6px;
+    background-color: rgb(180, 226, 180);
+}
+
+.section h4 {
+    font-weight: 500;
+}
+
+.section p {
+    font-size: 13px;
+}
+
+/*Packages*/
+
+#packages { 
+    background-image: linear-gradient(to left bottom, #25753a, #007e6b, #0083a6, #0081d6, #2872e5);
+    height: 100vh;
+}
+
+#packages h1 {
+    color: rgb(238, 238, 238);
+    text-align: center;
+    font-weight: 500;
+    padding-top: 5vh;
+}
+
+#packages h3 {
+    color: rgb(238, 238, 238);
+    text-align: center;
+    padding-bottom: 8vh;
+    font-weight: 300;
+    padding-top: 2vh
+}
+
+#packages li {
+    list-style: none;
+    display: inline-block;
+}
+
+#packages li li{ 
+    display: grid;
+    align-items: center;
+}
+
+.price-layout {
+    border-style: solid;
+    border-width: 1px;
+    border-color: #25753a;
+    border-radius: 2vh;
+    padding-left: 2vw;
+    width: 17vw;
+    height: 62vh;
+    background-color: #f7f6f6b0;
+}
+
+.price-layout h4 {
+    padding-top: 2vh;
+    font-size: 2.5vh;
+    font-weight: 500;
+}
+
+.price-layout p {
+    font-size: 80%;
+    padding-bottom: 2vh;
+}
+
+.price-layout h2 {
+    font-weight: 500;
+    padding-bottom: 2vh;
+}
+
+.price-layout button {
+    text-align: center;
+    color: #20997b;
+    font-weight: 500;
+    font-size: 1.5vh;
+    width: 15vw;
+    height: 4vh;
+    border: solid;
+    border-width: 1px;
+    background-color: #fafafa;
+    border-color: #20997b;
+    border-radius: 5px;
+    margin-bottom: 2vh;
+}
+
+.offers img {
+    height: 2.5vh;
+}
+
+.offers p {
+    display: inline-block;
+    position: relative;
+    bottom: 0.5vh;
+    font-size: 80%;
+}
+
+.special { 
+    border-color: #2f9c4c;
+    border-width: 0.5vh;
+    position: relative;
+    bottom: 7vh;
+    height: 56vh;
+    margin-left: 5%;
+}
+
+.basic { 
+    position: relative;
+    bottom: 20vh;
+    height: 43vh;
+    margin-left: 16%;
+}
+
+.special button{ 
+    color: rgb(238, 238, 238);
+    background-color: #25753a;
+    border-color: #25753a;
+}
+
+.pro { 
+    position: relative;
+    bottom: 1vh;
+    height: 63vh;
+    margin-left: 5%;
+}
+
+/*Contact Form*/
+
+#contact {
+    height: 100vh;
+    background-image: url("assets/images/contactbackground.png");
+    background-size: 100% 100%;
+    width: 100vw;
+}
+
+
+#contact h1 {
+    text-align: center;
+    margin-bottom: 10vh;
+    font-weight: 500;
+    padding-top: 5vh;
+}
+
+#contact ul li {
+    display: inline-block;
+}
+
+#contact iframe {
+    position: relative;
+    border-radius: 2vh;
+    width: 50vw;
+    height: 60vh;
+    left: 5vw;
+}
+
+.contact-form {
+    display: grid;
+    align-items: center;
+    position: relative;
+    left: 15vh;
+    bottom: 55vh;
+}
+
+.contact-form p {
+    margin-bottom: 2vh;
+}
+
+.contact-form label {
+    font-weight: 300;
+    font-size: 1.5vh;
+}
+
+.contact-form input {
+    width: 30vw;
+    height: 4vh;
+    border: none;
+    border: 1px solid;
+    border-radius: 5px;
+    border-color: #becfe2;
+    margin-bottom: 2vh;
+    outline: none;
+    background-color: #dfdfdf6e;
+}
+
+.contact-form textarea {
+    width: 30vw;
+    height: 20vh;
+    border-width: 1px;
+    border-radius: 5px;
+    border-color: #becfe2;
+    margin-bottom: 2vh;
+    resize: none;
+    background-color: #dfdfdf9a;
+}
+
+.contact-form button {
+    text-align: center;
+    color: #ffffff;
+    font-weight: 300;
+    font-size: 2vh;
+    width: 30vw;
+    height: 4vh;
+    background: none;
+    border: none;
+    background-color: #4cb0eb;
+    border-radius: 5px;
+}
+
+.footer {
+    background-color: #222422;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 28vh;
+}
+
+.footer-logo h2 {
+    font-family: 'Satisfy', cursive;
+    cursor: pointer;
+    color: #e7e7e7;
+    margin-right: 15vw;
+    font-size: 4vh;
+    font-weight: 50;
+    margin-left: 3vw;
+}
+
+.footer-nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: inline-block;
+    padding-right: 6vw;
+    position: relative;
+    left: 10vw;
+}
+
+.socials p {
+    color: #e7e7e7;
+}
+
+.socials li img {
+    height: 2.5vh;
+}
+
+.footer-nav li {
+    display: flex;
+    position: relative;
+    right: 35vw;
+    height: 4vh;
+}
+
+.footer-nav a {
+    text-decoration: none;
+    color: #fcfcfc;
+}
+
+.footer-contact {
+    color: #e7e7e7;
+    position: relative;
+    margin-right: 4vw;
+    bottom: 1vh;
+    line-height: 3vh;
+}
